@@ -350,7 +350,7 @@ function buildOrgCards() {
     const card = document.createElement('div');
     card.className = 'org-card';
     card.innerHTML = `
-      <div class="org-role-badge">${o.roleLabel} ${o.role}</div>
+      <div class="org-role-badge">${o.role}</div>
       <div class="org-name">${esc(member.name)}</div>
       <div class="org-nick">${esc(member.nick)}</div>
       <div class="org-meta">
